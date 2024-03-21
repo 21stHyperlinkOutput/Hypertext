@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="https://64.media.tumblr.com/d59a9d5175ed5485343b04579abe32cf/e1c6a930bf8d294b-37/s540x810/b932de04ee66c9f963bcc9306128786ab0341f7e.gif" class="background-img">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Prevents scrolling */
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the entire viewport */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://64.media.tumblr.com/d59a9d5175ed5485343b04579abe32cf/e1c6a930bf8d294b-37/s540x810/b932de04ee66c9f963bcc9306128786ab0341f7e.gif" alt="Full Page Image">
+</body>
     <h1>Warm, Muffled, Solemn Night</h1>
     <ul>
         <li>It was as if a <a href="file:///C:/Users/dusal/OneDrive/Documents/hyperlink/abc.html">flame</a></li>
