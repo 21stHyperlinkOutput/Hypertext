@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyperlink ni Dusalen, Cadingla, and Dela Cruz</title>
-</head>
-<body style="text-align: center;">
-    <link rel="stylesheet" href="style.css">    <style>
+    <style>
         html, body {
             margin: 0;
             padding: 0;
@@ -15,30 +14,57 @@
             overflow: hidden; /* Prevents scrolling */
         }
 
+        body {
+            text-align: center;
+            color: white; /* Set text color to white */
+        }
+
         img {
             width: 100%;
             height: 100%;
             object-fit: cover; /* Ensures the image covers the entire viewport */
+            position: fixed; /* Fix the image position */
+            top: 0;
+            left: 0;
+            z-index: -1; /* Place the image behind other content */
+        }
+
+        h1 {
+            margin-top: 50px; /* Adjust margin-top to push the heading down */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px; /* Adjust margin-top to space out the list */
+        }
+
+        li {
+            margin-bottom: 10px; /* Adjust margin-bottom to space out list items */
+        }
+
+        a {
+            color: white; /* Set link color to white */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Add underline on hover */
         }
     </style>
 </head>
 <body>
     <img src="https://64.media.tumblr.com/d59a9d5175ed5485343b04579abe32cf/e1c6a930bf8d294b-37/s540x810/b932de04ee66c9f963bcc9306128786ab0341f7e.gif" alt="Full Page Image">
-</body>
-    <font color="white"><h1>Warm, Muffled, Solemn Night</h1>
-    <ul style="list-style-type: none; padding: 0;">
- 
-        
-
-<li>It was as if a <a href="https://jandsixtynine.github.io/hypertext1/" target="_blank">flame</a></li>
-<li">the heartfelt atmosphere we had</li>
-<li>the embers </li>
-<li>smoldering we are</li>
-<br>
-<li>The euphonious resonant </li>
-<li><a href="https://jandsixtynine.github.io/jandery/" target="_blank">echoes</a> of gong</a></li>
-<li>from a distance</li>
-<li>while we dance alone</li></font>
+    <h1>Warm, Muffled, Solemn Night</h1>
+    <ul>
+        <li>It was as if a <a href="https://jandsixtynine.github.io/hypertext1/" target="_blank">flame</a></li>
+        <li>The heartfelt atmosphere we had</li>
+        <li>The embers</li>
+        <li>Smoldering we are</li>
+        <br>
+        <li>The euphonious resonant <a href="https://jandsixtynine.github.io/jandery/" target="_blank">echoes</a> of gong</li>
+        <li>From a distance</li>
+        <li>While we dance alone</li>
     </ul>
 </body>
 </html>
