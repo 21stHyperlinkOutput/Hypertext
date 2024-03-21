@@ -46,7 +46,7 @@ li {
 }
 
 a {
-    color: white; /* Set link color to white */
+    color: red; /* Set link color to red */
     text-decoration: underline; /* Underline links */
     cursor: pointer; /* Change cursor to pointer on hover */
 }
